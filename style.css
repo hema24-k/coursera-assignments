@@ -24,9 +24,10 @@ body{
 	.col-dp-6{
 		width:50%;
 	}
+	
 }
 @media(min-width:768px) and (max-width:991px){
-	.col-mb-4, .col-mb-6{
+	.col-mb-4, .col-mb-6, .col-mb-12{
 		float:left;
 	}
 	.col-mb-4{
@@ -34,6 +35,9 @@ body{
 	}
 	.col-mb-6{
 		width:50%;
+	}
+	.col-mb-12{
+		width:100%;
 	}
 }
 /**styling the boxes**/
@@ -85,6 +89,8 @@ p{
 	width:70px;
 	float:right; 
 }
+
+
 
 
 
